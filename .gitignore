@@ -1,0 +1,6 @@
+/.env.development
+/.git
+/coverage
+/dist
+/node_modules
+/public

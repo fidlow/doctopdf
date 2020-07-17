@@ -1,0 +1,9 @@
+.page {
+  line-height: 1.5;
+  font-family: "Noto Sans", sans-serif;
+  background-color: var(--element-background);
+}
+
+.page__body {
+  margin: 0;
+}

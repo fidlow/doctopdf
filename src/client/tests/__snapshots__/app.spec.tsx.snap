@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dropzoneComponent renders correctly 1`] = `
+<App>
+  <div
+    className="page"
+  >
+    <Header>
+      <header
+        className="header"
+      >
+        <div
+          className="logo"
+        >
+          <p
+            className="logo__title"
+          >
+            Doc To Pdf
+          </p>
+        </div>
+        <nav
+          className="menu"
+        >
+          <button
+            className="menu__button"
+            type="button"
+          >
+            <use
+              className="menu__icon-menu"
+              href="images/sprite.svg#menu"
+            />
+            <use
+              className="menu__icon-cross"
+              href="images/sprite.svg#cross"
+            />
+          </button>
+          <ul
+            className="menu__list"
+            id="menu__list"
+          >
+            <li
+              className="menu__item"
+            >
+              <a
+                className="menu__link menu__link--current"
+                href="/"
+              >
+                Главная
+              </a>
+            </li>
+            <li
+              className="menu__item"
+            >
+              <a
+                className="menu__link menu__link--inactive"
+              >
+                О нас
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </Header>
+    <Main>
+      <main
+        className="main main--hero"
+      >
+        <h1>
+          Загрузите XML акта сдачи-приёмки и получите PDF бесплатно
+        </h1>
+        <Dropzone>
+          <div
+            className="dropzone"
+          >
+            <div
+              className="dropzone__container "
+              onClick={[Function]}
+              onDragEnter={[Function]}
+              onDragLeave={[Function]}
+              onDragOver={[Function]}
+              onDrop={[Function]}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <img
+                alt="upload"
+                className="dropzone__icon"
+                src="images/cloud_upload.svg"
+              />
+              <input
+                accept="text/xml"
+                className="dropzone__fileinput"
+                multiple={true}
+                onChange={[Function]}
+                type="file"
+              />
+              <span>
+                Кликните сюда или переместите XML файлы на это поле
+              </span>
+            </div>
+            <div
+              className="files"
+            />
+          </div>
+        </Dropzone>
+        <p
+          className="main__paragraph main__paragraph--hero"
+        />
+      </main>
+    </Main>
+  </div>
+</App>
+`;

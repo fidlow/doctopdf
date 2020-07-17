@@ -1,0 +1,27 @@
+.main {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.main--hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__paragraph {
+  margin-top: 2rem;
+}
+
+.main__paragraph--hero {
+  display: flex;
+  justify-content: center;
+}
+
+.main__upload {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  box-sizing: border-box;
+  width: 100%;
+}

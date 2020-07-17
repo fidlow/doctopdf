@@ -1,0 +1,44 @@
+/* Logo */
+
+.logo {
+  display: grid;
+  column-gap: 8px;
+  grid-template-columns: min-content 1fr;
+  line-height: 1;
+}
+
+/* Image */
+
+.logo__image {
+  width: 40px;
+  height: 44px;
+}
+
+@media (width > 736px) {
+  .logo__image {
+    grid-row: span 2;
+  }
+}
+
+/* Title */
+
+.logo__title {
+  margin: 0;
+  letter-spacing: -0.03em;
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap;
+  color: var(--element-main-text);
+}
+
+@media (width <= 736px) {
+  .logo__title {
+    align-self: center;
+  }
+}
+
+@media (width > 736px) {
+  .logo__title {
+    align-self: end;
+  }
+}
