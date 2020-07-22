@@ -17,3 +17,11 @@ npm run build:client
 ```shell script
 npm run start:prod
 ```
+Тестирование React
+```shell script
+npm run test:client
+```
+Тестирование Nest.js
+```shell script
+npm run test:server
+```
